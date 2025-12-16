@@ -15,6 +15,6 @@ class Calculator
             throw new \InvalidArgumentException("Division by zero");
         }
 
-        return $number1 + $number2;
+        return $number1/$number2;
     }
 }
